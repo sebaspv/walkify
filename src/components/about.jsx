@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function About() {
+export function About() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -40,22 +40,6 @@ export default function About() {
                 Walkify te ofrece una variedad de ejercicios rápidos y sencillos que puedes realizar en cualquier
                 momento del día. Cada ejercicio te otorga puntos que puedes acumular y canjear por recompensas. Nuestra
                 aplicación te motiva a mantenerte activo de una manera divertida y accesible.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold">Nuestro Equipo</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Walkify fue creado por un equipo apasionado por la salud y el bienestar. Nuestro objetivo es brindar una
-                solución práctica y efectiva para que las personas puedan incorporar la actividad física en su vida
-                diaria.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold">Únete a Nosotros</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Si te interesa formar parte de nuestro equipo o colaborar con nosotros, no dudes en ponerte en contacto.
-                Estamos constantemente buscando nuevas formas de mejorar y expandir nuestra plataforma para ayudar a más
-                personas a alcanzar sus objetivos de salud y bienestar.
               </p>
             </div>
           </div>
