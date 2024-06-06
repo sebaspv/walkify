@@ -13,7 +13,7 @@ export function NewLanding() {
           <Link href="/exercise" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             Ejercicios
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+          <Link href="/about" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             Acerca de
           </Link>
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
